@@ -13,7 +13,9 @@
         <module>cloud-provider-payment</module>
         <module>cloud-common</module>
         <module>cloud-consumer-order</module>
-        <module>cloud-euraka-server</module>
+        <module>cloud-eureka-server</module>
+        <module>cloud-eureka-server02</module>
+<!--        <module></module>-->
     </modules>
 
 
