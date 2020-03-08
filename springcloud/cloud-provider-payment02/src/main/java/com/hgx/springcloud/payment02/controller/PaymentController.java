@@ -1,8 +1,8 @@
-package com.hgx.springcloud.payment.controller;
+package com.hgx.springcloud.payment02.controller;
 
 import com.hgx.springcloud.common.entities.response.CommonResultResponse;
-import com.hgx.springcloud.payment.entities.Payment;
-import com.hgx.springcloud.payment.service.PaymentService;
+import com.hgx.springcloud.payment02.entities.Payment;
+import com.hgx.springcloud.payment02.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
@@ -38,6 +38,4 @@ public class PaymentController {
             return new CommonResultResponse<>("500", "失败,serverPort:" + serverPort, null);
         }
     }
-
-
 }

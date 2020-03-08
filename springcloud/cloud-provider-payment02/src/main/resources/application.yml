@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
@@ -13,7 +13,7 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mappers/*.xml
-  type-aliases-package: com.hgx.springcloud.payment.entities
+  type-aliases-package: com.hgx.springcloud.payment02.entities
 
 eureka:
   client:

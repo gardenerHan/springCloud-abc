@@ -15,7 +15,7 @@
         <module>cloud-consumer-order</module>
         <module>cloud-eureka-server</module>
         <module>cloud-eureka-server02</module>
-<!--        <module></module>-->
+        <module>cloud-provider-payment02</module>
     </modules>
 
 
