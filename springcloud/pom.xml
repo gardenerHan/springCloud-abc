@@ -16,6 +16,7 @@
         <module>cloud-eureka-server</module>
         <module>cloud-eureka-server02</module>
         <module>cloud-provider-payment02</module>
+        <module>cloud-provider-payment-zk</module>
     </modules>
 
 
