@@ -1,4 +1,4 @@
-package com.hgx.springcloud.orderzk.controller;
+package com.hgx.springcloud.orderconsul.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,12 +13,12 @@ public class OrderController {
     private RestTemplate restTemplate ;
 
 //    private String url = "http://localhost:8001" ;
-private String url = "http://cloud-payment-service-zk" ;
+private String url = "http://cloud-payment-service-consul" ;
 
 
-    @GetMapping("/consumer/payment/get/zk")
+    @GetMapping("/consumer/payment/get/consul")
     public Object get(){
-        return restTemplate.getForObject(url+"/payment/zk/discovery", Object.class);
+        return restTemplate.getForObject(url+"/payment/consul/discovery", Object.class);
     }
 
 }

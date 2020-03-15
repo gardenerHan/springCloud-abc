@@ -1,9 +1,6 @@
 package com.hgx.springcloud.common.entities.response;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-
-import java.util.stream.DoubleStream;
 
 @Data
 public class CommonResultResponse<T> {
@@ -14,17 +11,15 @@ public class CommonResultResponse<T> {
 
     private T data;
 
-    public  CommonResultResponse(){
+    public CommonResultResponse() {
 
     }
 
-    public CommonResultResponse(String code, String message,T data){
-        this.code = code ;
-        this.message= message ;
-        this.data=data ;
+    public CommonResultResponse(String code, String message, T data) {
+        this.code = code;
+        this.message = message;
+        this.data = data;
     }
-
-
 
 
 //
@@ -79,9 +74,6 @@ public class CommonResultResponse<T> {
 //        commonResultResponse.setData(data);
 //        return commonResultResponse ;
 //    }
-
-
-
 
 
 }

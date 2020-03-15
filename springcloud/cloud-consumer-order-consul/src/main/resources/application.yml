@@ -1,9 +1,9 @@
 server:
-  port: 8006
+  port: 80
 
 spring:
   application:
-    name: cloud-payment-service-consul
+    name: cloud-order-service-consul
   cloud:
     consul:
       host: 106.14.217.80

@@ -1,8 +1,8 @@
 package com.hgx.springcloud.payment.dao;
-import org.apache.ibatis.annotations.Param;
 
 import com.hgx.springcloud.payment.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 @Mapper
 public interface PaymentMapper {
