@@ -6,4 +6,4 @@ spring:
     name: cloud-payment-service-zk
   cloud:
     zookeeper:
-      connect-string: 106.14.217.80:8917
+      connect-string: 106.14.217.80:8004
