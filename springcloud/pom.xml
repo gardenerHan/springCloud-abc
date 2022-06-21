@@ -29,7 +29,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <mybatis.spring.boot.version>2.1.1</mybatis.spring.boot.version>
-        <mysql.connector.java.verison>5.1.48</mysql.connector.java.verison>
+        <mysql.connector.java.verison>8.0.28</mysql.connector.java.verison>
         <alibaba.druid.verison>1.1.16</alibaba.druid.verison>
         <log4j.version>1.2.17</log4j.version>
         <lombok.verison>1.18.12</lombok.verison>
